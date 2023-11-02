@@ -1,3 +1,4 @@
+import Blog from './Download/blog'
 import Button from './components/button'
 import Input from './components/input'
 import NavigationDotVertical from './components/navigationDotVertical'
@@ -6,7 +7,7 @@ import SocialMedia from './components/socialMedia'
 function App() {
   return (
     <>
-      <div className="text-center">
+      <div className="text-center h-[100vh]">
         <p className="mb-10 text-3xl">Components</p>
         <hr className="mt-3 mb-3" />
         <Button className="bg-slate-600 text-white hover:bg-purple-500 ">
@@ -26,6 +27,7 @@ function App() {
         </div>
         <hr className="mt-3 mb-3" />
       </div>
+      <Blog />
     </>
   )
 }
