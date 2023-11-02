@@ -1,0 +1,22 @@
+.social-icon-vertical {
+  border: 1px solid gray;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.social-icon-vertical img {
+  width: 40px;
+  height: 40px;
+  background-color: lightseagreen;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.social-icon-vertical img:hover {
+  background-color: azure;
+}
