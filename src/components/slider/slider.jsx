@@ -28,7 +28,6 @@ const sliderList = [
 ]
 
 const Slider = () => {
-  const [slide, setSlide] = useState(sliderList)
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handleClick = (item) => {

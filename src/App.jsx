@@ -6,6 +6,8 @@ import NavigationDotVertical from './components/navigationDotVertical'
 
 import './App.css'
 import Slider from './components/slider/slider'
+import Absolute from './components/absolute/absolute'
+import Modal from './components/modal/modal'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="button" element={<Button />} />
+          <Route path="modal" element={<Modal />} />
+          <Route path="rel-abs" element={<Absolute />} />
           <Route path="slider" element={<Slider />} />
           <Route path="navigation" element={<NavigationDotVertical />} />
           <Route path="card" element={<Card />} />

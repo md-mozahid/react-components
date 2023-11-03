@@ -15,6 +15,8 @@ const Navbar = () => {
           'footer',
           'slider',
           'navigation',
+          'rel-abs',
+          'modal',
         ].map((item, index) => (
           <li key={index}>
             <Link to={item}>{item}</Link>
