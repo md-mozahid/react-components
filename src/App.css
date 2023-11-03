@@ -1,0 +1,6 @@
+body {
+  text-align: center;
+}
+.hoverToShow:hover div {
+  bottom: 0% !important;
+}
