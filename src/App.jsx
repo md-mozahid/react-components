@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Button from './components/button'
+import Buttons from './components/button/buttons'
 import Card from './components/card/card'
 import Navbar from './components/navbar'
 import NavigationDotVertical from './components/navigationDotVertical'
@@ -8,6 +8,7 @@ import './App.css'
 import Slider from './components/slider/slider'
 import Absolute from './components/absolute/absolute'
 import Modal from './components/modal/modal'
+import ToastMessage from './components/toastMessage/toastMessage'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="button" element={<Button />} />
+          <Route path="button" element={<Buttons />} />
+          <Route path="toast-msg" element={<ToastMessage />} />
           <Route path="modal" element={<Modal />} />
           <Route path="rel-abs" element={<Absolute />} />
           <Route path="slider" element={<Slider />} />

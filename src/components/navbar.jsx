@@ -17,6 +17,7 @@ const Navbar = () => {
           'navigation',
           'rel-abs',
           'modal',
+          'toast-msg'
         ].map((item, index) => (
           <li key={index}>
             <Link to={item}>{item}</Link>
