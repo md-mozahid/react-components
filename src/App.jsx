@@ -9,7 +9,7 @@ import Slider from './components/slider/slider'
 import Absolute from './components/absolute/absolute'
 import Modal from './components/modal/modal'
 import ToastMessage from './components/toastMessage/toastMessage'
-import FilterApp from './components/filter/filterApp'
+import FilterApp from './components/filter2/filter2'
 
 function App() {
   return (
